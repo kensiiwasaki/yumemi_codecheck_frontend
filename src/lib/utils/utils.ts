@@ -1,0 +1,99 @@
+export const graphColor = [
+  'rgb(148 163 184)', // text-slate-400
+  'rgb(71 85 105)', // text-slate-600
+  'rgb(30 41 59)', // text-slate-800
+  'rgb(15 23 42)', // text-slate-900
+  'rgb(156 163 175)', // text-gray-400
+  'rgb(75 85 99)', // text-gray-600
+  'rgb(31 41 55)', // text-gray-800
+  'rgb(17 24 39)', // text-gray-900
+  'rgb(161 161 170)', // text-zinc-400
+  'rgb(82 82 91)', // text-zinc-600
+  'rgb(39 39 42)', // text-zinc-800
+  'rgb(24 24 27)', // text-zinc-900
+  'rgb(163 163 163)', // text-neutral-400
+  'rgb(82 82 82)', // text-neutral-600
+  'rgb(38 38 38)', // text-neutral-800
+  'rgb(23 23 23)', // text-neutral-900
+  'rgb(168 162 158)', // text-stone-400
+  'rgb(87 83 78)', // text-stone-600
+  'rgb(41 37 36)', // text-stone-800
+  'rgb(28 25 23)', // text-stone-900
+  'rgb(248 113 113)', // text-red-400
+  'rgb(220 38 38)', // text-red-600
+  'rgb(153 27 27)', // text-red-800
+  'rgb(127 29 29)', // text-red-900
+  'rgb(251 146 60)', // text-orange-400
+  'rgb(234 88 12)', // text-orange-600
+  'rgb(154 52 18)', // text-orange-800
+  'rgb(124 45 18)', // text-orange-900
+  'rgb(251 191 36)', // text-amber-400
+  'rgb(217 119 6)', // text-amber-600
+  'rgb(146 64 14)', // text-amber-800
+  'rgb(120 53 15)', // text-amber-900
+  'rgb(250 204 21)', // text-yellow-400
+  'rgb(202 138 4)', // text-yellow-600
+  'rgb(133 77 14)', // text-yellow-800
+  'rgb(113 63 18)', // text-yellow-900
+  'rgb(163 230 53)', // text-lime-400
+  'rgb(101 163 13)', // text-lime-600
+  'rgb(63 98 18)', // text-lime-800
+  'rgb(54 83 20)', // text-lime-900
+  'rgb(74 222 128)', // text-green-400
+  'rgb(22 163 74)', // text-green-600
+  'rgb(22 101 52)', // text-green-800
+  'rgb(20 83 45)', // text-green-900
+  'rgb(52 211 153)', // text-emerald-400
+  'rgb(5 150 105)', // text-emerald-600
+  'rgb(6 95 70)', // text-emerald-800
+  'rgb(6 78 59)', // text-emerald-900
+  'rgb(45 212 191)', // text-teal-400
+  'rgb(13 148 136)', // text-teal-600
+  'rgb(17 94 89)', // text-teal-800
+  'rgb(19 78 74)', // text-teal-900
+  'rgb(34 211 238)', // text-cyan-400
+  'rgb(8 145 178)', // text-cyan-600
+  'rgb(21 94 117)', // text-cyan-800
+  'rgb(22 78 99)', // text-cyan-900
+  'rgb(56 189 248)', // text-sky-400
+  'rgb(2 132 199)', // text-sky-600
+  'rgb(7 89 133)', // text-sky-800
+  'rgb(12 74 110)', // text-sky-900
+  'rgb(96 165 250)', // text-blue-400
+  'rgb(37 99 235)', // text-blue-600
+  'rgb(30 64 175)', // text-blue-800
+  'rgb(30 58 138)', // text-blue-900
+  'rgb(129 140 248)', // text-indigo-400
+  'rgb(79 70 229)', // text-indigo-600
+  'rgb(55 48 163)', // text-indigo-800
+  'rgb(49 46 129)', // text-indigo-900
+  'rgb(167 139 250)', // text-violet-400
+  'rgb(124 58 237)', // text-violet-600
+  'rgb(91 33 182)', // text-violet-800
+  'rgb(76 29 149)', // text-violet-900
+  'rgb(192 132 252)', // text-purple-400
+  'rgb(147 51 234)', // text-purple-600
+  'rgb(107 33 168)', // text-purple-800
+  'rgb(88 28 135)', // text-purple-900
+  'rgb(232 121 249)', // text-fuchsia-400
+  'rgb(192 38 211)', // text-fuchsia-600
+  'rgb(134 25 143)', // text-fuchsia-800
+  'rgb(112 26 117)', // text-fuchsia-900
+  'rgb(244 114 182)', // text-pink-400
+  'rgb(219 39 119)', // text-pink-600
+  'rgb(157 23 77)', // text-pink-800
+  'rgb(131 24 67)', // text-pink-900
+  'rgb(251 113 133)', // text-rose-400
+  'rgb(225 29 72)', // text-rose-600
+  'rgb(159 18 57)', // text-rose-800
+  'rgb(136 19 55)', // text-rose-900
+]
+
+export const defaultGraphSets = [
+  {
+    label: 'サンプル',
+    data: [],
+    fill: '',
+    borderColor: '',
+  },
+]
