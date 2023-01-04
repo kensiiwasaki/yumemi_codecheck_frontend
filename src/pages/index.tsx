@@ -40,9 +40,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <PrefectureSelect setPrefectureCheckedList={setPrefectureCheckedList} />
-      <div>
-        <Graph datasets={graphDataList} labels={graphLabels} />
-      </div>
+      <Graph datasets={graphDataList} labels={graphLabels} />
     </Layout>
   )
 }
