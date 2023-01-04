@@ -1,6 +1,7 @@
 import { Dispatch, FC, SetStateAction, useCallback, useState } from 'react'
 import { Checkbox } from 'src/components/Atom/CheckBox'
 import { usePrefectureData } from 'src/lib/hooks/usePrefectureData'
+import styles from './index.module.css'
 
 type PrefectureChoiceType = {
   setPrefectureCheckedList: Dispatch<SetStateAction<number[]>>
@@ -35,7 +36,7 @@ export const PrefectureSelect: FC<PrefectureChoiceType> = ({
   return (
     <div>
       <h2>都道府県</h2>
-      <ul>
+      <ul className={styles.prefList}>
         {prefData &&
           prefData.map((prefecture) => {
             return (
