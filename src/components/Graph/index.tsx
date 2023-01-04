@@ -2,6 +2,7 @@ import type { FC } from 'react'
 import { Line } from 'react-chartjs-2'
 import type { GraphData } from 'src/lib/type/graphData'
 import { defaultGraphSets } from 'src/lib/utils/utils'
+import styles from './index.module.css'
 
 type GraphType = {
   datasets: GraphData[]
@@ -17,7 +18,7 @@ export const Graph: FC<GraphType> = (props) => {
   }
 
   return (
-    <div>
+    <div className={styles.graph}>
       <Line data={data} />
     </div>
   )
