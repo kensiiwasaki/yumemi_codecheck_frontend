@@ -1,4 +1,5 @@
 import { FC, useEffect, useState } from 'react'
+import styles from './index.module.css'
 
 type CheckboxType = {
   prefCode: number
@@ -25,7 +26,7 @@ export const Checkbox: FC<CheckboxType> = (props) => {
 
   return (
     <div>
-      <label>
+      <label className={styles.checkbox}>
         <input type="checkbox" checked={isChecked} onChange={handleChange} />
         <p>{label}</p>
       </label>
